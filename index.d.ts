@@ -237,6 +237,11 @@ export class Notification {
    * Setting this to true will specify "content-available" in the payload when it is compiled.
    */
   public contentAvailable: boolean;
+    /**
+   * The value to specify for payload.aps['target-content-id']. This is used to tell the app which content to show
+   * when you click on the notification
+   */
+  public targetContentIdentifier: string;
   /**
    *
    */
